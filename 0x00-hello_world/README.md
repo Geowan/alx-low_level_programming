@@ -2,3 +2,4 @@ Script 0-preprocessor runs a C file through the preprocessor and save the result
 
 Script 1-compiler compiles a C file but does not link.
 
+Script 2-assembler generates the assembly code of a C code and save it in an output file.
