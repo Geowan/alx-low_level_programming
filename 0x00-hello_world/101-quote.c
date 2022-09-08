@@ -12,9 +12,9 @@
 
 int main(void)
 {
-	char msg[59];
+	char msg[60];
 
-	strcpy(msg, "and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	strcpy(msg, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 
 	syscall(SYS_write, 1, msg, sizeof(msg));
 
