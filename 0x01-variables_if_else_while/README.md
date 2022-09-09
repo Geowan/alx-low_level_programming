@@ -6,4 +6,4 @@ Script 2-print_alphabet.c prints alphabet in lowercase, followed by a new line.
 
 Script 3-print_alphabets.c prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 
-
+Script 4-print_alphabt.c prints the alphabet in lowercase excelpt q and e
