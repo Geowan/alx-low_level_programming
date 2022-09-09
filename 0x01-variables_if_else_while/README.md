@@ -10,4 +10,4 @@ Script 4-print_alphabt.c prints the alphabet in lowercase excelpt q and e
 
 Script 5-print_numbers.c  prints all single digit numbers of base 10 starting from 0
 
-
+Script 6-print_numberz.c prints all single digit numbers of base 10 starting from 0
