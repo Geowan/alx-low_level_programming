@@ -17,3 +17,5 @@ Script 7-print_tebahpla.c prints the lowercase alphabet in reverse, followed by 
 Script 8-print_base16.c  prints all the numbers of base 16 in lowercase
 
 Script 9-print_comb.c prints all possible combinations of single-digit numbers.
+
+Script 100-print_comb3.c t prints all possible different combinations of two digits.
