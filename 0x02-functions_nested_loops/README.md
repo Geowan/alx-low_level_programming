@@ -23,3 +23,5 @@ Program 9-times_table.c prints the 9 times table, starting with 0
 Program 10-add.c adds two integers and returns the result.
 
 Program 11-print_to_98.c prints all natural numbers from n to 98, followed by a new line.
+
+Program 100-times_table.c  prints the n times table, starting with 0.
