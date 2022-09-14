@@ -11,3 +11,5 @@ Program 3-islower.c that checks for lowercase character.
 Program 4-isalpha.c checks for alphabetic character. Returns 1 if c is a letter, lowercase or uppercase Returns 0 otherwise
 
 Program 5-sign.c prints the sign of a number and Returns 1 and prints + if n is greater than zero,Returns 0 and prints 0 if n is zero,Returns -1 and prints - if n is less than zero
+
+Program 6-abs.c  computes the absolute value of an integer.
