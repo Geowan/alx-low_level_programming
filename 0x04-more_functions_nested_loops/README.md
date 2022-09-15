@@ -40,4 +40,5 @@ File 10-print_triangle.c prints a triangle, followed by a new line
 
 File 100-prime_factor.c prints the largest prime factor of the number 612852475143, followed by a new line.
 
+File 101-print_number.c Write a function that prints an integer.
 
