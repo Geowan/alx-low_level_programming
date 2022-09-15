@@ -7,15 +7,11 @@ void print_output(int i);
  * print_number - prints an integer.
  *
  * @n: integer passed to the print_number
+ *
  * Return: void
  */
 void print_number(int n)
 {
-	if (n == 0)
-	{
-		_putchar('0');
-		return;
-	}
 	if (n < 0)
 	{
 		_putchar('-');
