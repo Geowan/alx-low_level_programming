@@ -38,3 +38,6 @@ File 9-fizz_buzz.c  prints the numbers from 1 to 100, followed by a new line. Bu
 
 File 10-print_triangle.c prints a triangle, followed by a new line
 
+File 100-prime_factor.c prints the largest prime factor of the number 612852475143, followed by a new line.
+
+
