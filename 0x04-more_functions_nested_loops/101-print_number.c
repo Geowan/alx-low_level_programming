@@ -29,9 +29,9 @@ void print_number(int n)
  */
 void print_output(int i)
 {
-	int j = 1000000000;
+	int j;
 
-	for (; j >= 1; j /= 10)
+	for (j = 100000000; j >= 1; j /= 10)
 		if (i / j != 0)
 		{
 			_putchar((i / j) % 10 + '0');
