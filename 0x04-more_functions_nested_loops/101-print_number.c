@@ -12,28 +12,19 @@ void print_output(int i);
 void print_number(int n)
 {
 	if (n == 0)
+	{
 		_putchar('0');
-	else if (n < 0)
+		return;
+	}
+	if (n < 0)
 	{
 		_putchar('-');
-		print_output(n * -1);
+		n = -n;
 	}
-	else
-		print_output(n);
-}
+	if (n > 9)
+	{
+		print_number(n / 10);
+	}
 
-/**
- * print_output - Prints the passed integer value
- * @i: integer passed for output
- * Return: void
- */
-void print_output(int i)
-{
-	int j;
-
-	for (j = 10000; j >= 1; j /= 10)
-		if (i / j != 0)
-		{
-			_putchar((i / j) % 10 + '0');
-		}
+	_putchar(n % 10 + '0');
 }
