@@ -12,15 +12,17 @@ void print_output(int i);
  */
 void print_number(int n)
 {
+	unsigned int k = n;
+
 	if (n < 0)
 	{
 		_putchar('-');
-		n = -n;
+		k = -k;
 	}
-	if (n > 9)
+	if (k > 9)
 	{
-		print_number(n / 10);
+		print_number(k / 10);
 	}
 
-	_putchar(n % 10 + '0');
+	_putchar(k % 10 + '0');
 }
