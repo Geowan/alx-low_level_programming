@@ -1,4 +1,4 @@
-#Alx - Low-level programming & Algorithm	
+#Alx Program - Low-level programming & Algorithm	
 
 This directory contains alx tasks separated into folders named
 
