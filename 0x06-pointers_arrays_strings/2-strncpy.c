@@ -19,6 +19,7 @@ char *_strncpy(char *dest, char *src, int n)
 		src_length++;
 		src++;
 	}
+	src_length++;
 
 	if (n > src_length)
 		n = src_length;
